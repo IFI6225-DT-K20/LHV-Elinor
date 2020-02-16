@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="numbers-copy" transform="translate(-550.000000, -100.000000)" fill="#444B57">
+            <g id="1" transform="translate(550.000000, 100.000000)">
+                <g id="Oval" fill-rule="nonzero">
+                    <path d="M50,99 L50,99 C77.0619527,99 99,77.0619527 99,50 C99,22.9380473 77.0619527,1 50,1 C22.9380473,1 1,22.9380473 1,50 C1,77.0619527 22.9380473,99 50,99 L50,99 Z M50,100 L50,100 C22.3857625,100 0,77.6142375 0,50 C0,22.3857625 22.3857625,0 50,0 C77.6142375,0 100,22.3857625 100,50 C100,77.6142375 77.6142375,100 50,100 L50,100 Z" id="Oval-1"></path>
+                </g>
+                <path d="M50.79,41.52 C50.0499963,42.3000039 49.2000048,42.9099978 48.24,43.35 C47.2799952,43.7900022 46.2800052,44.0599995 45.24,44.16 L45.24,43.17 C46.440006,42.9899991 47.5299951,42.5700033 48.51,41.91 C49.4900049,41.2499967 50.2899969,40.3800054 50.91,39.3 L51.93,39.3 L51.93,60 L50.79,60 L50.79,41.52 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>
