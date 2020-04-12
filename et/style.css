@@ -1,3 +1,21 @@
 body{
     background-color: #f9f8f7;
 }
+
+#h1p {
+    color: #000000;
+    text-align: center;
+    font-size: 26px;
+}
+
+#h2p {
+    color: #000000;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 300;
+}
+
+#p1c {
+    text-align: right;
+    box-align: center;
+}
