@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="et">
 <head>
+    <meta charset="UTF-8">
     <title>Eraklient · LHV</title>
     <link rel="icon" href="../assets/images/favicon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+    .palkBG{
+        background-image: url(../assets/images/headers/fullpage/palkyle-bg.svg);
+        background-size: cover;
+    }
+    .palkTop{
+        background-image: url(../assets/images/headers/fullpage/palkyle-fg.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    </style>
 </head>
 <body>
     <header>
-        
+        <div id="logocont">
+            <img class="logo" src="../assets/images/lhv-logo.svg">
+        </div>  
     </header>
     <nav class="navbar navbar-default light-shadow container-fluid hidden-xs" id="menu">
         <div class="text-center">
@@ -17,7 +32,7 @@
                 <li class="dropdown"><a class="dropdown" data-toggle="dropdown" href="#">Igapäevapangandus</a>
                     <div class="dropdown-menu">
                         <div class="container">
-                            <div class="menu-table col-md-10 col-md-offset-1">
+                            <div class="menu-table">
                                 <table>
                                     <tr>
                                         <td>
@@ -72,7 +87,7 @@
                 <li class="dropdown"><a class="dropdown" aria-expanded="false" data-toggle="dropdown" href="#">Raha kasvatamine</a>
                     <div class="dropdown-menu">
                         <div class="container">
-                            <div class="menu-table col-md-10 col-md-offset-1">
+                            <div class="menu-table">
                                 <table>
                                     <tr>
                                         <td>
@@ -122,7 +137,7 @@
                 <li class="dropdown"><a class="dropdown" aria-expanded="false" data-toggle="dropdown" href="#">Laen ja liising</a>
                     <div class="dropdown-menu">
                         <div class="container">
-                            <div class="menu-table col-md-10 col-md-offset-1">
+                            <div class="menu-table">
                                 <table>
                                     <tr>
                                         <td style="width:25%">
@@ -175,7 +190,7 @@
                 <li class="dropdown"><a class="dropdown" aria-expanded="false" data-toggle="dropdown" href="#">Pension</a>
                     <div class="dropdown-menu">
                         <div class="container">
-                            <div class="menu-table col-md-8 col-md-offset-2">
+                            <div class="menu-table">
                                 <table>
                                     <tr>
                                         <td>
@@ -243,9 +258,9 @@
 
     </section>
     <section id="comparsion">
-        <h1 id="h1p">Teenustasude võrdlustabel</h1>
+        <h1 id="h1p">Teenustasude võrdlustabel</h1><br>
         <div style="text-align: center;">
-            <div style="text-align: left; display: inline-block">
+            <div style="text-align: left; display: inline-block; font-size: 16px;">
                 Näidisprofiiliga keskmine Eesti eraklient teeb kuus 5 pangasisest ja 3 euromakset,<br> kasutab ühte deebetkaarti, võtab pangaautomaadist välja kuni 100 eurot kuus. Selline<br> eraklient hoiab LHV-s kokku kuni 27,60 eurot aastas.
             </div>
         </div>
@@ -324,7 +339,11 @@
 
     </section>
     <section id="doublepay">
+    <div class="palkBG">
+        <div class="palkTop">
 
+        </div>
+    </div>
     </section>
     <section id="client">
 
