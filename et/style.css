@@ -1,13 +1,46 @@
 body{
     background-color: #f9f8f7;
 }
+.doublepayback {
+    background-image: url(../assets/images/headers/fullpage/palkyle-bg.svg);
+    background-size: cover
+}
 
+.doublepaytop {
+    background-image: url(../assets/images/headers/fullpage/palkyle-fg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.paymenttext a {
+    margin-top: 0;
+    font-weight: 200;
+    color: #fff;
+}
+.paymenttext p {
+    margin-top: 0;
+    /*font-weight: 200;*/
+    color: #fff;
+}
 
-.logo{
+.paymenttext h1 {
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.tinyarrow {
+    background-image: url(../assets/images/icons/small/arrow-white.svg);
+    background-repeat: no-repeat;
+    padding-right: 40px;
+    margin: 0px;
+}
+
+.logoheader{
     position: absolute;
     top: 50;
-    right: 750;
+    left: 750;
 }
 
 .container{

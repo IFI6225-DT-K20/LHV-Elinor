@@ -7,230 +7,226 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <style>
-    .palkBG{
-        background-image: url(../assets/images/headers/fullpage/palkyle-bg.svg);
-        background-size: cover;
-        position: absolute;
-    }
-    .palkTop{
-        background-image: url(../assets/images/headers/fullpage/palkyle-fg.svg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        position: absolute;
-    }
     </style>
 </head>
 <body>
     <header>
-        <div id="logocont">
+        <div id="logoheader">
             <img class="logo" src="../assets/images/lhv-logo.svg">
         </div>  
     </header>
-    <nav class="navbar navbar-default light-shadow container-fluid hidden-xs" id="menu">
-        <div class="text-center">
-            <ul class="nav navbar-nav" role="navigation">
-                <li><a class="menu" href="#">Internetipank</a></li>
-                <li class="dropdown"><a class="dropdown" data-toggle="dropdown" href="#">Igapäevapangandus</a>
-                    <div class="dropdown-menu">
-                        <div class="container">
-                            <div class="menu-table">
-                                <table>
-                                    <tr>
-                                        <td>
-                                            <h3>Tule kliendiks</h3>
-                                            <ul class="menu-table">
-                                                <li><a href="#">Eraklient</a></li>
-                                                <li><a href="#">Äriklient</a></li>
-                                                <li><a href="#">Lapsekonto</a></li>
-                                                <li><a href="#">Au-klient</a></li>
-                                                <li><a href="#">Noortepank</a></li>
-                                                <li><a href="#">Privaatpangandus</a></li>
-                                                <li><a href="#">Mitteresident</a></li>
-                                                <li><a href="#">Stardikonto</a></li>
-                                            </ul>
-                                        </td>
-                                        <td>
-                                            <h3>Arveldused</h3>
-                                            <ul class="menu-table">
-                                                <li><a href="#">Maksed</a></li>
-                                                <li><a href="#">E-arved</a></li>
-                                                <li><a href="#">Kaardimaksete vastuvõtmine</a></li>
-                                                <li><a href="#">Palgamakse</a></li>
-                                                <li><a href="#">Pangalink</a></li>
-                                                <li><a href="#">Connect</a></li>
-                                                <li><a href="#">Open Banking</a></li>
-                                                <li><a href="#">Ettevõtluskonto</a></li>
-                                                <li><a href="#">Kontsernikonto</a></li>
-                                            </ul>
-                                        </td>
-                                        <td style="width:25%">
-                                            <h3>Pangakaardid</h3>
-                                            <ul class="menu-table">
-                                                <li><a href="#">Erakliendi kaardid</a></li>
-                                                <li><a href="#">Ärikliendi kaardid</a></li>
-                                            </ul>
-                                        </td>
-                                        <td style="width:25%">
-                                            <h3>Teeninduskanalid</h3>
-                                            <ul class="menu-table">
-                                                <li><a href="#">Mobiiliäpp</a></li>
-                                                <li><a href="#">Kontorid</a></li>
-                                                <li><a href="#">Sularahaautomaadid</a></li>
-                                            </ul>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <div class="margin-top-30 text-center"><ahref="#"><strong>Igapäevapangandus</strong></a></div>
-                            </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu">
+                <a class="navbar-brand" class="dropdown" data-toggle="dropdown" href="#">Igapäevapangandus</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="dropdown-menu">
+                    <div class="container">
+                        <div class="menu-table">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <h3>Tule kliendiks</h3>
+                                        <ul class="menu-table">
+                                            <li><a href="#">Eraklient</a></li>
+                                            <li><a href="#">Äriklient</a></li>
+                                            <li><a href="#">Lapsekonto</a></li>
+                                            <li><a href="#">Au-klient</a></li>
+                                            <li><a href="#">Noortepank</a></li>
+                                            <li><a href="#">Privaatpangandus</a></li>
+                                            <li><a href="#">Mitteresident</a></li>
+                                            <li><a href="#">Stardikonto</a></li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <h3>Arveldused</h3>
+                                        <ul class="menu-table">
+                                            <li><a href="#">Maksed</a></li>
+                                            <li><a href="#">E-arved</a></li>
+                                            <li><a href="#">Kaardimaksete vastuvõtmine</a></li>
+                                            <li><a href="#">Palgamakse</a></li>
+                                            <li><a href="#">Pangalink</a></li>
+                                            <li><a href="#">Connect</a></li>
+                                            <li><a href="#">Open Banking</a></li>
+                                            <li><a href="#">Ettevõtluskonto</a></li>
+                                            <li><a href="#">Kontsernikonto</a></li>
+                                        </ul>
+                                    </td>
+                                    <td style="width:25%">
+                                        <h3>Pangakaardid</h3>
+                                        <ul class="menu-table">
+                                            <li><a href="#">Erakliendi kaardid</a></li>
+                                            <li><a href="#">Ärikliendi kaardid</a></li>
+                                        </ul>
+                                    </td>
+                                    <td style="width:25%">
+                                        <h3>Teeninduskanalid</h3>
+                                        <ul class="menu-table">
+                                            <li><a href="#">Mobiiliäpp</a></li>
+                                            <li><a href="#">Kontorid</a></li>
+                                            <li><a href="#">Sularahaautomaadid</a></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                            <div class="margin-top-30 text-center"><ahref="#"><strong>Igapäevapangandus</strong></a></div>
                         </div>
                     </div>
-                </li>
-                <li class="dropdown"><a class="dropdown" aria-expanded="false" data-toggle="dropdown" href="#">Raha kasvatamine</a>
-                    <div class="dropdown-menu">
-                        <div class="container">
-                            <div class="menu-table">
-                                <table>
-                                    <tr>
-                                        <td>
-                                            <h3>Säästmine</h3>
-                                            <ul class="menu-table">
-                                                <li><a href="#">Tähtajaline hoius</a></li>
-                                                <li><a href="#">Nõudmiseni hoius</a></li>
-                                            </ul>
-                                        </td>
-                                        <td>
-                                            <h3>Investeerimine</h3>
-                                            <ul class="menu-table">
-                                                <li><a href="#">Mikroinvesteerimine</a></li>
-                                                <li><a href="#">Kasvukonto</a></li>
-                                                <li><a href="#">Väärtpaberikonto</a></li>
-                                                <li><a href="#">Trader</a></li>
-                                                <li><a href="#">Broker</a></li>
-                                                <li><a href="#">Portfellihaldus</a></li>
-                                            </ul>
-                                        </td>
-                                        <td>
-                                            <h3>Investeerimisnõu</h3>
-                                            <ul class="menu-table">
-                                                <li><a href="#">Investeerimise ABC</a></li>
-                                                <li><a href="#">Investeerimiskool</a></li>
-                                                <li><a href="#">Virtuaalkonto</a></li>
-                                                <li><a href="#">Börsihai</a></li>
-                                                <li><a href="#">Balti analüüsid</a></li>
-                                            </ul>
-                                        </td>
-                                        <td>
-                                            <h3>Muud teenused</h3>
-                                            <ul class="menu-table">
-                                                <li><a href="#">Võimenduslaen</a></li>
-                                                <li><a href="#">Institutsionaalne maaklertegevus</a></li>
-                                                <li><a href="#">LEI-kood</a></li>
-                                                <li><a href="#">LHV Investeerimisfondid</a></li>
-                                            </ul>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <div class="margin-top-30 text-center"><a href="#"><strong>Investeerimise ABC</strong></a></div>
-                            </div>
+                </div>
+                <a class="navbar-brand" class="dropdown" data-toggle="dropdown" href="#">Rahakasvatamine</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="dropdown-menu">
+                    <div class="container">
+                        <div class="menu-table">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <h3>Säästmine</h3>
+                                        <ul class="menu-table">
+                                            <li><a href="#">Tähtajaline hoius</a></li>
+                                            <li><a href="#">Nõudmiseni hoius</a></li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <h3>Investeerimine</h3>
+                                        <ul class="menu-table">
+                                            <li><a href="#">Mikroinvesteerimine</a></li>
+                                            <li><a href="#">Kasvukonto</a></li>
+                                            <li><a href="#">Väärtpaberikonto</a></li>
+                                            <li><a href="#">Trader</a></li>
+                                            <li><a href="#">Broker</a></li>
+                                            <li><a href="#">Portfellihaldus</a></li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <h3>Investeerimisnõu</h3>
+                                        <ul class="menu-table">
+                                            <li><a href="#">Investeerimise ABC</a></li>
+                                            <li><a href="#">Investeerimiskool</a></li>
+                                            <li><a href="#">Virtuaalkonto</a></li>
+                                            <li><a href="#">Börsihai</a></li>
+                                            <li><a href="#">Balti analüüsid</a></li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <h3>Muud teenused</h3>
+                                        <ul class="menu-table">
+                                            <li><a href="#">Võimenduslaen</a></li>
+                                            <li><a href="#">Institutsionaalne maaklertegevus</a></li>
+                                            <li><a href="#">LEI-kood</a></li>
+                                            <li><a href="#">LHV Investeerimisfondid</a></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                            <div class="margin-top-30 text-center"><a href="#"><strong>Investeerimise ABC</strong></a></div>
                         </div>
                     </div>
-                </li>
-                <li class="dropdown"><a class="dropdown" aria-expanded="false" data-toggle="dropdown" href="#">Laen ja liising</a>
-                    <div class="dropdown-menu">
-                        <div class="container">
-                            <div class="menu-table">
-                                <table>
-                                    <tr>
-                                        <td style="width:25%">
-                                            <h3>Eralaenud</h3>
-                                            <ul class="menu-table">
-                                                <li><a href="#">Kodulaen</a></li>
-                                                <li><a href="#">Eralaen</a></li>
-                                                <li><a href="#">Väikelaen</a></li>
-                                                <li><a href="#">Autolaen</a></li>
-                                                <li><a href="#">Remondilaen</a></li>
-                                                <li><a href="#">Sisustuslaen</a></li>
-                                                <li><a href="#">Tervise- ja ilulaen</a></li>
-                                                <li><a href="#">Õppelaen</a></li>
-                                                <li><a href="#">Võimenduslaen</a></li>
-                                            </ul>
-                                        </td>
-                                        <td style="width:25%">
-                                            <h3>Ettevõtete laenud</h3>
-                                            <ul class="menu-table">
-                                                <li><a href="#">Mikrolaen</a></li>
-                                                <li><a href="#">Arvelduslaen</a></li>
-                                                <li><a href="#">Käibekapitalilaen</a></li>
-                                                <li><a href="#">Investeerimislaen</a></li>
-                                                <li><a href="#">Ettevõtete omandamise rahastamine</a></li>
-                                            </ul>
-                                        </td>
-                                        <td style="width:25%">
-                                            <h3>Liising</h3>
-                                            <ul class="menu-table">
-                                                <li><a href="#">Liising</a></li>
-                                                <li><a href="#">Järelmaks</a></li>
-                                            </ul>
-                                        </td>
-                                        <td style="width:25%">
-                                            <h3>Kaubanduse rahastamine</h3>
-                                            <ul class="menu-table">
-                                                <li><a href="#">Garantiid</a></li>
-                                                <li><a href="#">Akreditiivid</a></li>
-                                                <li><a href="#">Dokumentaalinkasso</a></li>
-                                                <li><a href="#">Faktooring</a></li>
-                                            </ul>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <div class="margin-top-30 text-center"><a class="arrow" href="#"><strong>Laen ja liising</strong></a></div>
-                            </div>
+                </div>
+            <a class="navbar-brand" class="dropdown" data-toggle="dropdown" href="#">Laen ja liising</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="dropdown-menu">
+                    <div class="container">
+                        <div class="menu-table">
+                            <table>
+                                <tr>
+                                    <td style="width:25%">
+                                        <h3>Eralaenud</h3>
+                                        <ul class="menu-table">
+                                            <li><a href="#">Kodulaen</a></li>
+                                            <li><a href="#">Eralaen</a></li>
+                                            <li><a href="#">Väikelaen</a></li>
+                                            <li><a href="#">Autolaen</a></li>
+                                            <li><a href="#">Remondilaen</a></li>
+                                            <li><a href="#">Sisustuslaen</a></li>
+                                            <li><a href="#">Tervise- ja ilulaen</a></li>
+                                            <li><a href="#">Õppelaen</a></li>
+                                            <li><a href="#">Võimenduslaen</a></li>
+                                        </ul>
+                                    </td>
+                                    <td style="width:25%">
+                                        <h3>Ettevõtete laenud</h3>
+                                        <ul class="menu-table">
+                                            <li><a href="#">Mikrolaen</a></li>
+                                            <li><a href="#">Arvelduslaen</a></li>
+                                            <li><a href="#">Käibekapitalilaen</a></li>
+                                            <li><a href="#">Investeerimislaen</a></li>
+                                            <li><a href="#">Ettevõtete omandamise rahastamine</a></li>
+                                        </ul>
+                                    </td>
+                                    <td style="width:25%">
+                                        <h3>Liising</h3>
+                                        <ul class="menu-table">
+                                            <li><a href="#">Liising</a></li>
+                                            <li><a href="#">Järelmaks</a></li>
+                                        </ul>
+                                    </td>
+                                    <td style="width:25%">
+                                        <h3>Kaubanduse rahastamine</h3>
+                                        <ul class="menu-table">
+                                            <li><a href="#">Garantiid</a></li>
+                                            <li><a href="#">Akreditiivid</a></li>
+                                            <li><a href="#">Dokumentaalinkasso</a></li>
+                                            <li><a href="#">Faktooring</a></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                            <div class="margin-top-30 text-center"><a class="arrow" href="#"><strong>Laen ja liising</strong></a></div>
                         </div>
                     </div>
-                </li>
-                <li class="dropdown"><a class="dropdown" aria-expanded="false" data-toggle="dropdown" href="#">Pension</a>
-                    <div class="dropdown-menu">
-                        <div class="container">
-                            <div class="menu-table">
-                                <table>
-                                    <tr>
-                                        <td>
-                                            <h3>Minu pension</h3>
-                                            <ul class="menu-table">
-                                                <li><a href="#">Arvuta oma pension</a></li>
-                                                <li><a href="#">Halda II samba fonde</a></li>
-                                                <li><a href="#">Halda III samba fonde</a></li>
-                                                <li><a href="#">Vaata oma II samba seisu</a></li>
-                                                <li><a href="#">Vaata oma III samba seisu</a></li>
-                                                <li><a href="#">Minu andmed</a></li>
-                                            </ul>
-                                        </td>
-                                        <td>
-                                            <h3>Pensioni kogumine</h3>
-                                            <ul class="menu-table">
-                                                <li><a href="#">II sammas</a></li>
-                                                <li><a href="#">III sammas</a></li>
-                                                <li><a href="#">Tootlused</a></li>
-                                            </ul>
-                                        </td>
-                                        <td>
-                                            <h3>Lisainfo</h3>
-                                            <ul class="menu-table">
-                                                <li><a href="#">Väljamaksed</a></li>
-                                                <li><a href="#">Nõuanded</a></li>
-                                                <li><a href="#">Pensionifondide juhtimine</a></li>
-                                                <li><a href="#">Pensioni uudised</a></li>
-                                            </ul>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <div class="margin-top-30 text-center"><a href="#"><strong>Pension</strong></a></div>
-                            </div>
+                </div>
+            <a class="navbar-brand" class="dropdown" data-toggle="dropdown" href="#">Pension</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="dropdown-menu">
+                    <div class="container">
+                        <div class="menu-table">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <h3>Minu pension</h3>
+                                        <ul class="menu-table">
+                                            <li><a href="#">Arvuta oma pension</a></li>
+                                            <li><a href="#">Halda II samba fonde</a></li>
+                                            <li><a href="#">Halda III samba fonde</a></li>
+                                            <li><a href="#">Vaata oma II samba seisu</a></li>
+                                            <li><a href="#">Vaata oma III samba seisu</a></li>
+                                            <li><a href="#">Minu andmed</a></li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <h3>Pensioni kogumine</h3>
+                                        <ul class="menu-table">
+                                            <li><a href="#">II sammas</a></li>
+                                            <li><a href="#">III sammas</a></li>
+                                            <li><a href="#">Tootlused</a></li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <h3>Lisainfo</h3>
+                                        <ul class="menu-table">
+                                            <li><a href="#">Väljamaksed</a></li>
+                                            <li><a href="#">Nõuanded</a></li>
+                                            <li><a href="#">Pensionifondide juhtimine</a></li>
+                                            <li><a href="#">Pensioni uudised</a></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                            <div class="margin-top-30 text-center"><a href="#"><strong>Pension</strong></a></div>
                         </div>
                     </div>
-                </li>
-                <li class="dropdown"><a class="menu last" href="#">Vajad abi?</a></li>
+                </div>
+                <a class="navbar-brand" class="dropdown" data-toggle="dropdown" href="#">Vajad abi?</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </ul>
         </div>
     </nav>
@@ -340,9 +336,20 @@
     <section id="services">
 
     </section>
-    <div class="doublepay" style="position: relative;">
-        <img style="position: absolute;" class="img-fluid" src="../assets/images/headers/fullpage/palkyle-bg.svg">
-        <img style="position: absolute;" class="img-fluid" src="../assets/images/headers/fullpage/palkyle-fg.svg">
+    <div class="doublepayback">
+        <div class="doublepaytop">
+            <div class="container">
+                <div class="row" style="padding:80px 0 40px 0">
+                    <div class="paymenttext">
+                        <h1><strong><b>Võida topeltpalk!</b></strong></h1>
+                        <p>Aprillis võitis lisapalga Mari Maasikas.</p>
+                        <p>Palju õnne!</p>
+                        <p>Too oma palk LHV-sse ja osale <b>5. mail</b> topeltpalga loosimises.</p>
+                        <a><strong>Loe lisa</strong></a><a class="tinyarrow"></a>
+                    </div>
+                </div>
+             </div>
+        </div>
     </div>
     </section>
     <section id="client">
