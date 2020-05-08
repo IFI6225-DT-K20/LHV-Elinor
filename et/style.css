@@ -1,9 +1,22 @@
-body{
+body {
     background-color: #f9f8f7;
 }
+
+#comparsion {
+    background-color: #f3f2f1;
+}
+
+#table .container {
+    max-width: 540px;
+}
+
+.table td {
+    font-size: 14px;
+}
+
 .doublepayback {
     background-image: url(../assets/images/headers/fullpage/palkyle-bg.svg);
-    background-size: cover
+    background-size: cover;
 }
 
 .doublepaytop {
@@ -14,13 +27,15 @@ body{
 }
 
 .paymenttext a {
-    margin-top: 0;
+    margin-top: 0px;
+    margin-left: 30px;
     font-weight: 200;
     color: #fff;
 }
+
 .paymenttext p {
-    margin-top: 0;
-    /*font-weight: 200;*/
+    margin-top: 0px;
+    font-weight: 200;
     color: #fff;
 }
 
@@ -34,32 +49,19 @@ body{
     background-image: url(../assets/images/icons/small/arrow-white.svg);
     background-repeat: no-repeat;
     padding-right: 40px;
-    margin: 0px;
 }
 
-.logoheader{
+.logoheader {
     position: absolute;
     top: 50;
     left: 750;
-}
-
-.container{
-    position: relative;
-    size: cover;
-}
-
-.background-img{
-    position: absolute;
-}
-
-.top-img{
-    position: relative;
 }
 
 #h1p {
     color: #000000;
     text-align: center;
     font-size: 26px;
+    margin-top: 30px;
 }
 
 #h2p {
