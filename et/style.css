@@ -6,12 +6,12 @@ body {
     background-color: #f3f2f1;
 }
 
-#table .container {
-    max-width: 540px;
-}
-
 .table td {
     font-size: 14px;
+}
+
+#comptable.container {
+    max-width: 700px;
 }
 
 .doublepayback {
@@ -28,7 +28,6 @@ body {
 
 .paymenttext a {
     margin-top: 0px;
-    margin-left: 30px;
     font-weight: 200;
     color: #fff;
 }
@@ -48,7 +47,7 @@ body {
 .tinyarrow {
     background-image: url(../assets/images/icons/small/arrow-white.svg);
     background-repeat: no-repeat;
-    padding-right: 40px;
+    padding-right: 30px;
 }
 
 .logoheader {
