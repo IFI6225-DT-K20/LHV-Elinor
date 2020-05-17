@@ -2,6 +2,35 @@ body {
     background-color: #f9f8f7;
 }
 
+.table-borderless>tbody>tr>td,
+.table-borderless>tbody>tr>th,
+.table-borderless>tfoot>tr>td,
+.table-borderless>tfoot>tr>th,
+.table-borderless>thead>tr>td,
+.table-borderless>thead>tr>th {
+    border: none;
+    line-height: 8px;
+}
+
+/* võetud githubist näitab, et ükski üleminek ei tekita joont */
+
+.footer {
+    background-color: #f3f2f1;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    color: gray;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+    color: darkgrey;
+}
+
+
 .btn.btn-dark {
     font-size: 11px;
     margin-left: 10%;
@@ -43,11 +72,27 @@ body {
     align-self: flex-start;
 }
 
+.navbar {
+    background-color: #f3f2f1;
+    height: 60px;
+}
+
+.navbar a {
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    float: none;
+    text-align: center;
+    left: 20%;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
 .menu-table ul {
     list-style-type: none;
 }
 
-.menu-table li a{
+.menu-table li a {
     color: #000;
     text-decoration: none;
     text-align: right;
@@ -63,20 +108,18 @@ body {
     font-size: 14px;
 }
 
-#comptable.container {
-    max-width: 700px;
-}
-
 .doublepayback {
-    background-image: url(../assets/images/headers/fullpage/palkyle-bg.svg);
+    background-image: url(../assets/images/headers/palkyle-bg.svg);
     background-size: cover;
+    height: 500px;
 }
 
 .doublepaytop {
-    background-image: url(../assets/images/headers/fullpage/palkyle-fg.svg);
+    background-image: url(../assets/images/headers/palkyle-fg.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 500px;
 }
 
 .paymenttext a {
@@ -91,17 +134,59 @@ body {
     color: #fff;
 }
 
+
 .paymenttext h1 {
     margin-top: 30px;
     margin-bottom: 20px;
     font-weight: 300;
     color: #fff;
+    text-align: left;
 }
 
-.tinyarrow {
-    background-image: url(../assets/images/icons/small/arrow-white.svg);
+.childaccount {
+    background-image: url(../assets/images/headers/LK-bg.svg);
+    background-size: cover;
+    height: 500px;
+}
+
+.childclouds {
+    background-image: url(../assets/images/headers/LK-fg.svg);
+    background-size: cover;
     background-repeat: no-repeat;
-    padding-right: 30px;
+    background-position: center;
+    height: 500px;
+}
+
+.childphone {
+    background-image: url(../assets/images/headers/LK-iphone-et.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+.bankstuff {
+    background-image: url(../assets/images/headers/ariklient-bg.svg);
+    background-size: cover;
+    height: 500px;
+}
+
+.banktext {
+    text-align: center
+}
+
+.pension {
+    background-image: url(../assets/images/headers/pension-tulevik-bg.svg);
+    background-size: cover;
+    height: 500px;
+}
+
+
+a.arrow::after {
+    content: ' →';
+    background-repeat: no-repeat;
+    text-decoration: none;
+    text-transform: none;
+    line-height: 1.4
 }
 
 .comparsion h1 {
@@ -121,4 +206,28 @@ body {
     color: #000000;
     text-align: center;
     font-size: 26px;
+}
+
+#blog.container {
+    margin-top: 100px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column h2 {
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.podcast ul{
+    list-style-image: url('../assets/images/icons/play-video.svg');
 }
