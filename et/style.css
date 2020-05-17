@@ -22,12 +22,16 @@ body {
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    color: gray;
+    background-color: lightgray;
+    margin-left: 10px;
+}
+
+.carousel-indicators .active {
+    background-color: gray;
 }
 
 .carousel-indicators {
     bottom: -50px;
-    color: darkgrey;
 }
 
 
@@ -151,9 +155,8 @@ body {
 
 .childclouds {
     background-image: url(../assets/images/headers/LK-fg.svg);
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     height: 500px;
 }
 
@@ -210,6 +213,11 @@ a.arrow::after {
 
 #blog.container {
     margin-top: 100px;
+    height: 450px;
+}
+
+.footer {
+    height: 500px;
 }
 
 .column {
@@ -228,6 +236,28 @@ a.arrow::after {
     font-size: 25px;
 }
 
-.podcast ul{
-    list-style-image: url('../assets/images/icons/play-video.svg');
+.podcast {
+    list-style: none;
+    padding-left: 0;
+}
+.podcast li {
+    position: relative;
+    padding-left: 30px;
+    line-height: 35px;
+}
+.podcast li:before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-image: url('../assets/images/icons/play-video.svg');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.podcast li a {
+    color: #000;
 }
